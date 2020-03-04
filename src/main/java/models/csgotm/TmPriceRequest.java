@@ -1,8 +1,9 @@
-package models;
+package models.csgotm;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import models.Item;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class SteamInfoAboutItem {
-    public String lowest_price = "0.0";
+public class DataPriceRequest {
+    public Item[] items;
 }

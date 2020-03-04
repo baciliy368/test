@@ -1,8 +1,8 @@
-package models;
+package models.bitskins;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class CsgotmPricesResponse {
-    public Item[] items;
+public class DataPriceRequest {
+    public Data data;
 }
